@@ -1,20 +1,20 @@
 ## Browserify 模块化使用教程
 1. 创建项目结构
-  ```
-  |-js
-    |-dist // 打包生成文件的目录
-    |-src // 源码所在的目录
-      |-module1.js
-      |-module2.js
-      |-module3.js
-      |-app.js // 应用主源文件
-  |-index.html
-  |-package.json
-    {
-      "name": "browserify-test",
-      "version": "1.0.0"
-    }
-  ```
+   ```
+   |-js
+     |-dist // 打包生成文件的目录
+     |-src // 源码所在的目录
+       |-module1.js
+       |-module2.js
+       |-module3.js
+       |-app.js // 应用主源文件
+   |-index.html
+   |-package.json
+     {
+       "name": "browserify-test",
+       "version": "1.0.0"
+     }
+   ```
 2. 下载 browserify
   * 全局: npm install browserify -g
   * 局部: npm install browserify --save-dev
@@ -46,7 +46,7 @@
     
     exports.arr = [2, 3, 5, 4, 1, 3, 5, 1];
     ```
-  * app.js (应用的主js)
+  * app.js (应用的主 js)
     ```
     /**
      1. 定义暴露模块:

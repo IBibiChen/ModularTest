@@ -1,18 +1,19 @@
 ## Node.js 模块化教程
 1. 下载安装 node.js
 2. 创建项目结构
-  ```
-  |-modules
-    |-module1.js
-    |-module2.js
-    |-module3.js
-  |-app.js
-  |-package.json
-    {
-      "name": "commonJS-node",
-      "version": "1.0.0"
-    }
-  ```
+   ```
+   |-modules
+     |-module1.js
+     |-module2.js
+     |-module3.js
+   |-app.js
+   |-package.json
+   
+   {
+     "name": "commonJS-node",
+     "version": "1.0.0"
+   }
+   ```
 3. 下载第三方模块
   * npm install uniq --save
 4. 模块化编码

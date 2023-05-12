@@ -4,18 +4,18 @@
   * github : https://github.com/seajs/seajs
   * 将 sea.js 导入项目: js/libs/sea.js 
 2. 创建项目结构
-  ```
-  |-js
-    |-libs
-      |-sea.js
-    |-modules
-      |-module1.js
-      |-module2.js
-      |-module3.js
-      |-module4.js
-      |-main.js
-  |-index.html
-  ```
+   ```
+   |-js
+     |-libs
+       |-sea.js
+     |-modules
+       |-module1.js
+       |-module2.js
+       |-module3.js
+       |-module4.js
+       |-main.js
+   |-index.html
+   ```
 3. 定义 sea.js 的模块代码
   * module1.js
     ```
@@ -91,24 +91,24 @@
     });
     ```
 4. index.html:
-  ```
-  <!--
-      使用 seajs:
-        1. 引入 sea.js 库
-        2. 如何定义导出模块 :
-          define()
-          exports
-          module.exports
-        3. 如何依赖模块:
-          require()
-        4. 如何使用模块:
-          seajs.use()
-  -->
-  <script type="text/javascript" src="js/libs/sea.js"></script>
-  <script type="text/javascript">
-      seajs.use('./js/modules/main');
-  </script>
-  ```
+   ```
+   <!--
+       使用 seajs:
+         1. 引入 sea.js 库
+         2. 如何定义导出模块 :
+            define()
+            exports
+            module.exports
+         3. 如何依赖模块:
+            require()
+         4. 如何使用模块:
+            seajs.use()
+   -->
+   <script type="text/javascript" src="js/libs/sea.js"></script>
+   <script type="text/javascript">
+       seajs.use('./js/modules/main');
+   </script>
+   ```
         
     
        
